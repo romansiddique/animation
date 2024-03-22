@@ -1,0 +1,25 @@
+div{
+    box-shadow: 10px 10px 40px gray;
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+    border: 2px double yellowgreen;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+}
+div h1{
+    padding: 20px;
+    text-align: center;
+}
+@keyframes example{
+  0%{background-color: orange; left: 0px; top: 0px;}
+  25%{background-color: cyan; left: 200px; top: 0px;}
+  50%{background-color: blue; left: 200px; top: 200px;}
+  75%{background-color: sandybrown; left: 0px; top: 200px;}
+  100%{background-color: orange; left: 0px; top: 0px;}
+  
+
+}
